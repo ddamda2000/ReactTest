@@ -7,10 +7,10 @@ class Routes extends React.Component {
     render() {
         return (
             <Router>
-                <ul>
-                    <li><Link to='/'>Main</Link></li>
-                    <li><Link to='/add'>Add</Link></li>
-                </ul>
+                <div className='black-nav'>
+                    <Link to='/'>Main</Link>
+                    <Link to='/add'>Add</Link>
+                </div>
 
                 <Switch>
                     <Route exact path='/' component={Main} />

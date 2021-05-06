@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Routes extends React.Component {
+class Insert extends React.Component {
     render() {
         return (
             <div>
@@ -10,4 +10,4 @@ class Routes extends React.Component {
     }
 }
 
-export default Routes;
+export default Insert;
