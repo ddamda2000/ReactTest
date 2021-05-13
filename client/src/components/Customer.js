@@ -11,7 +11,7 @@ class Customer extends React.Component {
                 <TableCell>{this.props.name}</TableCell>
                 <TableCell>{this.props.age}</TableCell>
                 <TableCell>{this.props.job}</TableCell>
-                <TableCell>{this.props.point}</TableCell>
+                <TableCell>{this.props.remk}</TableCell>
             </TableRow>
         );
     }

@@ -63,7 +63,7 @@ class Main extends React.Component {
                                         name={c.name}
                                         age={c.age}
                                         job={c.job}
-                                        point={c.point}
+                                        remk={c.remk}
                                     />
                                 );
                             }) : ""
